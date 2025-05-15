@@ -12,8 +12,8 @@ while variable2 == "":
    variable2 = input("Edad: ")
 
 #variable3 = 0 Este codigo puede fallar con cualquier cosa que no se sea un numero o valores negativos
-#while variable3 == 0: Este codigo puede fallar con cualquier cosa que no se sea un numero o valores negativos
-    #variable3 = float(input("peso en kilogramos: ")) Este codigo puede fallar con cualquier cosa que no se sea un numero o valores negativos
+#while variable3 == 0: Este codigo da proble,a porque, si acepta el 0, esa operacion no se podra realizar
+    #variable3 = float(input("peso en kilogramos: ")). al no poder variable3 entre variable 5 da error
 
 while True:
     try:
