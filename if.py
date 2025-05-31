@@ -34,18 +34,31 @@
 # else :
 #      print ("eres mayor de edad, aqui esta tu cigarro")
 
-Salir = input ("¿Saldras de casa hoy?: ")
+Salir = input("¿Saldrás de casa hoy?: ").lower() #.lower es para aceptar cualquier valor
 
-if Salir == "si" :
-    if Salir == "si" : 
-        print ("¿Apagaste todas las luces?: ")
-elif Salir == "si" :
-     print ("¿Las mascotas tienen agua y comida?: ")
-elif Salir == "si":
-   print ("¿La puerta tiene seguro?: ")
-elif Salir == "si":
-   print ("¿Llevas tu cartera?: ")
-else :
-     print ("Tienes todo listo para salir")
- else:
-    print ("Es mejor estar en casa")
+if Salir == "si":
+    Salir = input("¿Apagaste todas las luces?: ").lower()
+    if Salir != "si":
+        print("Entonces apaga todas las luces")
+    
+    Salir = input("¿Las mascotas tienen agua y alimento?: ").lower()
+    if Salir != "si":
+        print("Entonces pon agua y comida a las mascotas!!!")
+    
+    Salir = input("¿Llevas tu cartera?: ").lower()
+    if Salir != "si":
+        print("Entonces lleva tu cartera")
+    
+    Salir = input("¿La puerta tiene llave?: ").lower()
+    if Salir == "si":
+        print("Perfecto, tienes todo listo para salir")
+    else:
+        print("Entonces ponle llave a la puerta")
+else:
+    print("No salir de casa ayuda a ahorrar dinero")
+
+
+
+            
+            
+            
