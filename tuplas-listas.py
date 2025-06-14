@@ -1,0 +1,10 @@
+colores = ("Rojo", "Negro", "Verde", "Azul", "Naranja")
+numeros = (23, 45, 12, -4)
+
+colores_numeros = (colores, numeros, 123, "Violeta", "Marron", 458)
+print (colores_numeros[0])
+print (colores_numeros[1])
+print (colores_numeros[2])
+print (colores_numeros[3])
+print (colores_numeros[4])
+print (colores_numeros[5])
